@@ -1,5 +1,6 @@
 
 # Input from the user: operation, and two numbers
+print("Calculator")
 operation = input("Choose an operation (+, -, *, /): ")
 first = float(input("Enter first number: "))
 second = float(input("Enter second number: "))
