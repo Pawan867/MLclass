@@ -1,0 +1,9 @@
+1.Data Type
+2.Data Structure
+3.Setting And Getting Data Type
+4. Type Casting/Type Conversion
+i. implicit type casting
+ii. Explict type casting
+5. Data Type Precedence
+6.class work
+7.github

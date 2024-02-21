@@ -1,0 +1,27 @@
+1. Run time vs Compiler
+2. interpreter Vs Compiler
+3. python
+4. jupyter notebook
+5. vscode
+6. colaboratory
+7. pytho virtual environment
+8. virtual env 
+9. * pattern (H.W.)
+10. Python as a calculator
+11. Interactive Mode Script Mode
+12. Fuctional way bata calculate (H.W.)
+13. Python Keywords and Identifiers
+Chapter 2:
+14. Operators Operands Expressions
+15 y=mx+c (k k ho ?)
+16 Operator Types:
+17. Operators Precedence
+18. Python Variables
+19. Rules For creating Variables
+20. Naming Conventions
+21.(Assignments)
+22. python keywords
+next day : Data Type
+
+
+
