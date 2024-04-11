@@ -1,0 +1,58 @@
+Can we reshape to any shape?
+Yes, as long as element required for reshaping are equal in both shapes.
+
+Q. Convert 1D array with 8 elements to a 2D array with shape (3, 3)
+. This process raise an exception, since there are 8 elements before reshaping and 9 elemnts after reshaping
+.for reshaping to happrn, number of elements before reshapng
+
+
+Joining Arrays:
+concatenate
+. concatenate 1D array
+. concatenate 2D array (axis=0)
+.splitting array:
+Splitting is reverse operations of Joining
+Joining merges multiple arrays into one
+splitting breaks one array into multiple array
+can be implemented using numpy functins:
+. numpy.split()
+.numpy.array_split()
+we pass array we want to split and the number of split.
+sub arrays obtained after splitting is only view of the original arrays
+.changes made to the sub-arrays also reflect changes in the original array
+
+Numpy Universal Function (Ufuncs)
+. Looping over the array to perform repeated task like addition,substraction,etc on each array elements are common
+. computation time to perform such repeated task increase with relatively large data
+.NumPy makes this faster by using vectorized operation ,
+
+Types:
+.
+.
+
+Vectorization:
+.Its technique
+....
+
+.Deep Learning
+....
+
+Broadcasting in python
+rules
+
+Tasks:
+1. what is Numpy all method describe 
+2. Importance of NumPy
+3. how to install NumPy 
+Import
+4. Numpy and python list difference
+5. Compare the NUmpy size memory speed and performance
+6.  What are types in NumPy?
+7. Array Dimension describe all method in Dimension
+8.data set csv reader le read grne and convert to list then convert numpy array ma convert
+9 np.zeroes,np.empty.... explain all np.arrange, np.linspace,
+10. np.add np. sapai describe
+11. np.mean sapai describe
+12 shape and reshape difference
+13. broadcast describe
+14. 

@@ -1,0 +1,152 @@
+Pandas:
+csv ma load 
+drop
+download csv file and use all method
+
+df_hr.head
+df_hr.tail
+df_hr.shape
+df_hr.columns
+df_hr.dtypes
+df_hr.to_numpy()
+df_hr.info()
+df_hr.describe()
+
+.Dataframe occupies 1.1+MB memory
+.columns are of types:
+
+df_hr.describe() 
+shows the statistical summary for each column, including mean, min, max etc.
+. 
+
+For Oject type, we get count,unique
+
+Data Selection:
+This sections covers different techniques to access columns,slice dataframe, get unique
+
+ column values:
+
+.select columns(using[],and dot(.)operator)
+.iloc
+.loc
+
+
+print(df_hr['satisfaction_level'])
+print(----------)
+
+colmn_to_select= ['satisfaction_level', 'left']
+df_hr[columns_to_select]
+
+iloc:
+.ways to slice pandas dataframe via integer values
+.
+. Syntax: df.iloc[row_index, column_index]
+
+df_hr.iloc[0, 0]
+df_hr.iloc[:3, -3:]
+
+loc:
+. loc is used for label-based indexing
+. allow us to alice dataframe using row lanel and column label instead of integer value as in loc
+. Syntax: df.loc[row_label, column_label]
+
+df_hr.loc[0, 'satisfaction_level']
+
+examle:
+row_label = [0, 1, 2]
+column_label = ['promotion...... baki']
+df_hr.loc[row_label, column_label]
+
+unique() and nunique()
+df_hr['left'].unique()
+df_hr['left'].nunique()
+
+This means left columns has 2 unique
+
+value_counts()
+
+df_hr['left'].value_counts()
+
+
+Aggregations:
+. Methods are:
+  .mean()
+  .std()
+  .sum()
+  .max()
+  .min()
+df_hr.mean(axis=0) # mean of each column
+df_hr.mean(axis=1) # mean of each row
+
+compute standard deviation:
+
+df_hr[['satisfaction_level', 'last_evaluation']].std()
+
+3.sum()
+#get total work accident
+print(df_hr['work_accident'].sum())
+
+..max
+..min
+It means minimum employes satisfaction is 0.09 but not 0
+
+Missing Data:
+. In this section we will explore methods available to find missing data and handle data in our data.
+  Methods:
+  . isnull() or isna(). This method returns a boolean series den
+  . notnull() notna()
+  . dropna()
+  . fillna()
+
+isnull() or isna():
+. Return True if DataFrame values are notnull
+. Dataframe methods to get nan values from columns
+. It will considered null values if there are nan which is python default marker for null values
+. you can use df.insull() df.isna()
+
+
+df_hr.isnull()
+df_hr.isnull().sum()
+
+notnull() or notna():
+. Returns True if 
+
+df_hr.notnull().sum()(axis=0)
+
+dropna():
+df_hr.dropna()
+
+fillna():
+
+
+Data Manipulation:
+  .replace()
+    .replace values from dataframe
+    .df.replace({'old_val': 'new_val', 'old_val_2':'new_val2',....})
+  .astype()
+  .drop()
+  .sort_values()
+  .groupby()
+  .apply()
+.replace():
+df_hr['left'.replace({1: 'Yes', 0:'No'....baki})]
+
+.astype():
+df_hr['column'].astype('....
+
+.drop():
+df_drop = df_hr.....baki
+
+
+.sort_values():
+
+.groupby():
+
+
+
+.apply():
+
+
+
+Data Join
+Save

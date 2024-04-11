@@ -1,0 +1,31 @@
+Matplotlib from Basics to Advanced 
+Sunil Ghimire
+•
+9:28 AM (Edited 9:32 AM)
+100 points
+Please follow the attached notebook and describe each plot from the top to the bottom. When describing, include the use case of each plot. 
+
+kindly request everyone to upload the completed file in the classroom.
+
+Naming Convention: [Your_name]_assignment_name.pdf.
+
+
+
+
+data_visualization.ipynb
+Unknown File
+
+bike_rental_datasets.csv
+Comma Separated Values
+
+cricket_scores.csv
+Comma Separated Values
+
+Fortune_1000.csv
+Comma Separated Values
+
+Iris.csv
+Comma Separated Values
+
+titanic.csv
+Comma Separated Values

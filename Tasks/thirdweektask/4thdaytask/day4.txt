@@ -1,0 +1,4 @@
+synchronous
+Asynchronous
+threding:
+parallel processing

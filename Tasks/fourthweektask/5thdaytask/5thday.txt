@@ -1,0 +1,14 @@
+NumPy:
+- Stands Forn Numerical Python
+- NumPy is a python library used for working with arrays
+- NumPy is array is acollection of homegeneous data type stored in contiguous memory location
+- Has function for working in domain of libear algebra, fourier transform, and matrices.
+- Writ partially in python, but parts that require fast computation are written in c or c++
+- Source code of NumPy is located at github repository
+https://github.com/numpy/numpy
+
+Why NumPy is Fast?
+- An array is a collection of homegeneous data type that are stored in contiguous memory location
+- Vectorized operation are possible in NumPy
+- NumPy package integrates C C++, and Fortran codes in python 
+	

@@ -1,0 +1,113 @@
+Data Science and machine  learning.
+Chapter1:
+  .Simple Intoduction to Data Science
+  .Data Science vs Data Mining
+  .What is Machine learning
+    .Types Of Machine  Learning
+    .Some Basic Terms
+  .Python and Jupyter Installation
+  .Machine Learning Useful Package
+    .NumPy
+    .Pandas
+    .Matplotlib
+Chapter2: Data Preprocessing
+  .Reading and Modifying Dataset
+  .Basic Statistics
+  .Covariance
+  .Missing Values
+  .Outliers
+  .Concatenating
+  .Dummy Variables
+  .Normalization
+
+Chapter3: Classification
+  .Decision Tree (DT)
+  .K-nearest neighbor (K-NN)
+  .Logistic Regression
+  .Naive Bayes(NB)
+  .Classification Metrics - Model Evaluation
+
+
+Chapter4: Regression
+  .Linear Regression
+
+Chapter5: Clustering
+  .Clustering- K-means
+  .Clustering- DBSCAN
+  .Clustering-  Hierarchical
+Chapter6: Hyperprameter optimization
+  .What Is Parameter Tuning?
+  .Classification(k-NN)
+  .Regression(SVR)
+  .Clustering(K-Means)
+
+What is the Difference Between a Parameter and a Hyperparameter?
+
+Parameter: A parameter is a configuration variable that is internal to the model and whose value can be estimated from the given data. Parameters are the part of the model that are learned from the data during training. For example, in a linear regression model, the coefficients for each predictor and the intercept are parameters. These are adjusted through the learning process to minimize a loss function.
+
+Hyperparameter: A hyperparameter, on the other hand, is a configuration that is external to the model and whose value cannot be estimated from the data. Hyperparameters are used to control the learning process and must be set prior to the training process. They are not learned from the data but are rather set based on experience or experimentation. Examples include the learning rate in gradient descent, the depth of a decision tree, or the number of hidden layers in a neural network.
+
+
+Chapter1: Summary
+Data Science:
+Study that Combines domain experties, Programming, Skills and knowledge of mathematics and Statistics to extract meaningful insights from data
+
+Artificial Intelligience:
+ability to learn, understand imagine the qualities that are 
+
+
+
+
+Data:
+
+Data Science Vs Data Mining
+1.
+2.
+3.Goal
+4.Output
+5.Purpose:
+  DM:Finding
+  DS:Social anlysis predictor
+6.Vocational Perspective
+  DM: Someone with a knowledge of navigating across data and statistical understanding can conduct data Mining
+  DC: A Person needs to understand ML, Programing, Info
+7.Extent
+  DM: Data mining can be a subsrt of a data science as mining
+  DS: Multidisciplinary- Data Science Consists of data visalization
+
+8.Deal With (Type Of data )
+  DM: Mostly Structured
+  DS: All FOrms of data-Structured,semi-Structured,and  Unstructured
+9.Other Less Popular Name
+  DM:
+  DS:Data Driven Science
+
+DATA MINING:
+Example and USE CASE
+  COnsider a scenario where you are a major retailer in Nepal. You have 120 stores operating in 1 major cities in Nepal
+
+DATA SCIENCE:
+What Is 
+
+Machine Learning:
+  .Machine Learning is the study of computer algorithms that comprise algorithms and statistical models that allows computer
+
+Types Of Machine Learing(Machine Learning Model)
+  Learning algorithms:
+    Supervised learning
+    Unsupervised Learning
+    Reinforcement Learning
+ 
+Dimensionality 
+  .Large Number Of attributes
+  .Difficult
+
+Regression : Continuous Data
+y = mx+c
+
+y = 2x+3
+y = 3x1+2x2+4x3+5
+y = 2x2+3x+4
+
+multi:
+y= 2x2+3x2+4x+5

@@ -1,0 +1,14 @@
+from scipy import stats
+
+def one_way_anova(*groups):
+    F_statistic, p_value = stats.f_oneway(*groups)
+    return F_statistic, p_value
+
+# Example usage:
+group1 = [5, 7, 9, 11, 13]
+group2 = [8, 10, 12, 14, 16]
+group3 = [6, 8, 10, 12, 14]
+
+F_stat, p_val = one_way_anova(group1, group2, group3)
+print("F-statistic:", F_stat)
+print("P-value:", p_val)

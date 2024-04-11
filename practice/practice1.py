@@ -38,6 +38,12 @@
 # print(amrit)
 # print(krishna)
 
-name = "Pawan"
-print(len(name))
-print(name.upper())
+name = "Pawan Acharya"
+# print(len(name))
+# print(name.find("z"))
+# print(name.capitalize())
+# print(name.lower())
+# print(name.isdigit())
+# print(name.isalpha())
+print(name.count("A"))
+print

@@ -1,0 +1,24 @@
+Array Indexing:
+-Array slicing: Accessing Subarrays
+. Slicing means taking elements from one given index to another 
+. Syntax: array[start_index:end_end_index:step]
+. Conditions:
+	.if we dont pass start its consideres as 0
+	.if we dont pass end its considered length of array in that dimension
+	.if we dont pass step its considered as 1
+.Case:
+	.Step is possitive:
+	.step is negative:
+
+
+.Copy and view[Optional]
+	.Copy means copy of an original array
+	.view means just an view of an original array
+	.when new array is created via copying array, newly created array doesnt shares the memory with original array
+	.when new array is created via view of an array , newly created shares the memory with orginal array
+
+
+Homework:
+1.array ko sabai append, pop, ... memory using location time complexity ...
+2.2d array user bata input ligyera digonal haru print (without using numpy)
+focus on dsa(stack, queue, array,...) 

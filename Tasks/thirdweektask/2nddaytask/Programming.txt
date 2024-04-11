@@ -1,0 +1,11 @@
+important DSA
+why list ?
+why ?
+important Math
+
+1.exception handling
+2.sqlite database
+Task:
+Usingsqlite create login logout using class, exception, function all
+this project submit pdf file 
+and id password from developers site

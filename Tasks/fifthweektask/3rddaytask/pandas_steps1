@@ -1,0 +1,7 @@
+import numpy as np
+import pandas as pd
+
+# import pandas as pd
+data = pd.read_csv("car_details.csv")
+head = data.head()
+print(head)

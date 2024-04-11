@@ -1,0 +1,13 @@
+data from kaggle
+data nikalni 
+mean median mode ko function banyera 
+mean median mode call gryera ans
+row column describe 10+
+features 1500+
+mean median mode
+histagomplot 
+outlier
+
+
+
+

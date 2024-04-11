@@ -1,0 +1,30 @@
+pandas:
+pandas.Series:
+. Series is one-dimensional ndarray with axis labels
+. you can think of services as a single column or single row of data with associated labels.
+pandas.DataFrame:
+. A DataFrame is a two-dimensional
+
+Install Pandas and Numpy
+
+pip install -r  requirements.txt
+
+
+notes:
+.When creating Series via list and numpy array, Series index label are automatically      generated starting from 0
+. When Creating Series via dictionary, dictionary keys becomes series index
+
+Create Data From:
+pd.DataFrame()
+
+
+Data Ingestion:
+.Data Ingestion is the process of obtaining and import data for immediate use of storage in a database
+.This repository include varity of dataset, so for now .....
+.There may be scenario where we need to ingest ....
+
+Create Data from CSV file
+. use pd.read_csv()
+data_path = '../../Data/HR_coma_sep.CSV'
+df_hr = pd.read_csv(data_path
+

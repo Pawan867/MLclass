@@ -1,0 +1,18 @@
+# Create an empty array
+my_array = []
+
+# Add elements to the array
+my_array.append(1)
+my_array.append(2)
+my_array.append(3)
+
+# Access elements
+print("First element:", my_array[0])
+print("Second element:", my_array[1])
+print("Third element:", my_array[2])
+
+# Calculate the sum of all elements
+total = 0
+for element in my_array:
+    total += element
+print("Sum of all elements:", total)

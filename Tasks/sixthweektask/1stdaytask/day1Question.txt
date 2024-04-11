@@ -1,0 +1,15 @@
+Day 01
+Sunil Ghimire
+•
+Yesterday (Edited Yesterday)
+Questions that will be answered by data are? 
+
+1. `How does the average satisfaction level change with increasing years of employment? [Line and Scatter Plot]
+2. `How many employees have spent a specific number of years (time spent in the company)?` [Bar Plot]
+3. `What is the distribution of satisfaction levels among employees?` [Histogram]
+4. `What is the distribution of work accidents among departments?` [___________]
+5. `What is the distribution of promotions based on departments?`  [___________]
+6. `How does employee satisfaction vary across different departments?` [Box Plot]
+7. `Figure out employee leaving status (time_spend vs satisfaction_level vs left?`[Bubble Plot]
+8. `How are the numerical variables correlated with each other?`
+9. `How to create different scatter plots under single matplotlib figure?`

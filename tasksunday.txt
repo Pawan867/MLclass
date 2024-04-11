@@ -1,0 +1,86 @@
+"""
+Comprehensive Array Operations and Complexity Analysis
+Includes: Accessing, Insertion, Deletion, Updating, Traversal, Sorting, and Searching
+"""
+
+# Accessing Elements
+# Time Complexity: O(1) - Direct access using index
+# Space Complexity: O(1) - No additional space required
+def access_element(arr, *indices):
+    if len(indices) == 1:
+        return arr[indices[0]]
+    elif len(indices) == 2:
+        return arr[indices[0]][indices[1]]
+    elif len(indices) == 3:
+        return arr[indices[0]][indices[1]][indices[2]]
+
+# Inserting Elements
+# Time Complexity: O(n) - Worst case, when shifting is required
+# Space Complexity: O(n) - May require temporary storage for shifting
+def insert_element(arr, index, value, dimension=1):
+    if dimension == 1:
+        arr.insert(index, value)
+    # Extend for 2D, 3D with similar logic
+
+# Deleting Elements
+# Time Complexity: O(n) - Worst case, when shifting is required
+# Space Complexity: O(1) - Direct removal, no additional space required
+def delete_element(arr, index, dimension=1):
+    if dimension == 1:
+        del arr[index]
+    # Extend for 2D, 3D with similar logic
+
+# Updating Elements
+# Time Complexity: O(1) - Direct access and update
+# Space Complexity: O(1) - No additional space required
+def update_element(arr, index, value, dimension=1):
+    if dimension == 1:
+        arr[index] = value
+    # Extend for 2D, 3D with similar logic
+
+# Traversal of Elements
+# Time Complexity: O(n), O(n*m), O(n*m*p) for 1D, 2D, 3D respectively
+# Space Complexity: O(1) - No additional space required
+def traverse(arr, dimension=1):
+    if dimension == 1:
+        for element in arr:
+            print(element)
+    # Extend for 2D, 3D with nested loops
+
+# Sorting Elements (using built-in sort for simplicity)
+# Time Complexity: O(n log n) - Based on Timsort for Python's sort()
+# Space Complexity: O(n) - Timsort requires temporary storage
+def sort_array(arr):
+    arr.sort()
+
+# Searching Elements (Linear Search)
+# Time Complexity: O(n), O(n*m), O(n*m*p) for 1D, 2D, 3D respectively
+# Space Complexity: O(1) - No additional space required
+def search_element(arr, value, dimension=1):
+    if dimension == 1:
+        for i, element in enumerate(arr):
+            if element == value:
+                return i
+    # Extend for 2D, 3D with nested loops
+    return -1
+
+# Example usage and complexity scenarios
+if __name__ == "__main__":
+    # 1D Array Example
+    arr_1d = [3, 1, 4, 1, 5]
+    print("Access Element:", access_element(arr_1d, 2))
+    insert_element(arr_1d, 2, 9)
+    print("After Insertion:", arr_1d)
+    delete_element(arr_1d, 2)
+    print("After Deletion:", arr_1d)
+    update_element(arr_1d, 2, 9)
+    print("After Update:", arr_1d)
+    print("Traversal:")
+    traverse(arr_1d)
+    sort_array(arr_1d)
+    print("After Sorting:", arr_1d)
+    print("Search for 9:", search_element(arr_1d, 9))
+    
+    # For 2D and 3D arrays, extend the usage similarly.
+    # Note: Detailed implementations for 2D and 3D operations, especially for insertion and deletion,
+    #       would follow similar patterns but include handling for additional dimensions.

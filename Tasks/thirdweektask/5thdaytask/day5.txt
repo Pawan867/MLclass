@@ -1,0 +1,17 @@
+Multiprocessing:
+if problem then use colab
+
+Asynchronous:
+
+homework:
+synchronous
+asynchronus
+multithreding
+multiprocessing 
+ma kun le time badi lagako cha
+
+Time:
+- Synchronous
+- Multithreading
+- Multiprocessing
+- Asynchronous Programming

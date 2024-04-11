@@ -4,4 +4,5 @@ Encapsulation
 3.pblic
 Abstraction 
 
+
 due polimarfision

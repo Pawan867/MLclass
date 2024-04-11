@@ -1,0 +1,20 @@
+what is numpy
+Why NumPy is Fast?
+Data Type
+int float difference
+built in function
+1dimension 2dimension
+
+Attributes of NumPy Array:
+
+- ndarray.ndim: Represents the number of dimension(axes) of the ndarray
+- ndarray.shape: Gives the tuple of integers representing the size of ndarray in each dimension
+- ndarray.size: GIves the total number of elements in the ndarray.equals to the product of elements of the result of the attribute shape
+- ndarray.dtype
+-ndarray.itemsize
+
+Array Indexing:
+
+
+{home work numPy use nagri python aaray banauni 
+numpy ma int ra string multiple data structure pathuda aaray ma kina bani raxa ksri store}

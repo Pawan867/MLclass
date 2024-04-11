@@ -1,0 +1,8 @@
+1.web scraping
+(beautiful soup bs4)
+pip install bs4
+pip install requests
+pip install pandas
+HOMEWORK:(data import from coronavirus https://www.worldometers.info/coronavirus/
+PANDAS LOAD CSV MA SAVE AND SQLITE SAVE)
+AND LOGIN REGISTER

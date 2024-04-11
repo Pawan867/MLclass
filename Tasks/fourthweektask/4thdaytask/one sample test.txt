@@ -1,0 +1,15 @@
+import numpy as np
+
+def one_sample_ttest_formula(sample_data, pop_mean):
+    sample_mean = np.mean(sample_data)
+    sample_std = np.std(sample_data, ddof=1)  # ddof=1 for sample standard deviation
+    sample_size = len(sample_data)
+    
+    t_statistic = (sample_mean - pop_mean) / (sample_std / np.sqrt(sample_size))
+    return t_statistic
+
+# Example usage:
+sample_data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+pop_mean = 5.5
+t_stat = one_sample_ttest_formula(sample_data, pop_mean)
+print("t-statistic:", t_stat)

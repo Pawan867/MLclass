@@ -1,0 +1,14 @@
+- Percentile
+-  Normal Distribution
+- Outlier Detection
+
+outlier detection:
+1.Z SCORE
+2.IQR
+3.BOX PLOT
+
+outlier detection using Z Score
+Formulae:
+z=x-u/a
+where,
+

@@ -1,0 +1,76 @@
+Hypothesis Testing:
+1.Evaluate Mutual Exclusive relation on Population based on sample Data
+i.Gender
+	male 		Balance
+	female	---
+	male		Imbalance
+
+Step of Hypothesis Testing:
+- null and alternative[set null hypothesis(Assumption) (h0) -> balance]
+- test size and to obtain the critical value.[collect Data]
+-compute the test statistic.[Gather evidance to reject or not null hypothesis]
+
+Types of Hypothesis testing:
+gender	Age	weight	height			
+male	E	70	7.8			
+female	A	80	7.9			
+male	A	55	6.1			
+male	C	60	5.3
+female	A	33	5.2
+
+Data	One Population Sample Data
+
+h0	There is no difference
+
+h1	There is Difference  (after p_value<=0.05(hreshold) this data is difference or not find)
+
+test	One population sample test - T = (X̄ – μ) / S/√n
+				
+[p_value<=0.05(hreshold)]
+
+
+Data	Two Categorical
+
+h0	There is no difference
+
+h1	There is Difference  (after p_value<=0.05(hreshold) this data is difference or not find)
+
+test	Chi-Square Test - χ2 = ∑(Oi – Ei)2/Ei,
+
+
+Data	Continuous Data
+
+h0	There is no difference
+
+h1	There is Difference  (after p_value<=0.05(hreshold) this data is difference or not find)
+
+test	T-test	- 
+
+
+Data	Two Numerical Data
+
+h0	There is no difference
+
+h1	There is Difference  
+
+test	Correlation (T-test) - t=r√(n−21−r2).
+
+
+Data	Numerical Data - Categorical Data(2 Features)
+
+h0	There is no difference
+
+h1	There is Difference  
+
+test	T-Test
+
+
+Data	Numerical Data - Categorical Data(3 Features)
+
+h0	There is no difference
+
+h1	There is Difference  
+
+test	Anova Test
+
+
